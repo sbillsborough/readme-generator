@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+const generateMarkdown = require('./generateMarkdown');
 // function with array of questions for the user
 function promptUser() {
   inquirer.prompt([
@@ -48,7 +49,9 @@ function promptUser() {
       name: 'questions',
       message: 'Enter your contact information for any questions about the project:'
     },
-  ]);
+  ]).then(data => {
+    generateMarkdown();
+  });
 }
 
 module.exports = promptUser;
