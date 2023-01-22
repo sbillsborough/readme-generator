@@ -49,7 +49,10 @@ function promptUser() {
       name: 'questions',
       message: 'Enter your contact information for any questions about the project:'
     },
-  ]);
+  ])
+  .then((res) => {
+    return fs.writeFileSync(path.join(process.cwd(), 'README.md'), generate(response))
+  });
 }
 
 module.exports = promptUser;
