@@ -1,7 +1,6 @@
 # README.md Generator
 
 > A README.md generator that prompts the user in the terminal for the required information then generates the README.md file based on their answers. 
-
 ## Table of contents
 
 - [General info](#general-info)
