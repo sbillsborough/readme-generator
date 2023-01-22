@@ -4,27 +4,27 @@ const generateMarkdown = require('./generateMarkdown');
 function promptUser() {
   inquirer.prompt([
     {
-      type: 'string',
+      type: 'input',
       name: 'title',
       message: 'Enter the project\'s title:'
     },
     {
-      type: 'string',
+      type: 'input',
       name: 'description',
       message: 'Enter the project\'s description:'
     },
     {
-      type: 'string',
+      type: 'input',
       name: 'contents-table',
       message: 'Enter the project\'s contents:'
     },
     {
-      type: 'string',
+      type: 'input',
       name: 'installation',
       message: 'Enter the project\'s installation instructions:'
     },
     {
-      type: 'string',
+      type: 'input',
       name: 'usage',
       message: 'Enter a description of how to use your project:'
     },
@@ -32,26 +32,24 @@ function promptUser() {
       type: 'list',
       name: 'license',
       message: 'Choose the project\'s license type:',
-      choices: ['MIT', 'None']
+      choices: ['MIT', 'GNU General Public License 2.0', 'Apache License 2.0', 'GNU General Public License 3.0']
     },
     {
-      type: 'string',
+      type: 'input',
       name: 'contributing',
       message: 'Enter the project\'s contributers:'
     },
     {
-      type: 'string',
+      type: 'input',
       name: 'tests',
       message: 'Enter any tests for your project:'
     },
     {
-      type: 'string',
+      type: 'input',
       name: 'questions',
       message: 'Enter your contact information for any questions about the project:'
     },
-  ]).then(data => {
-    generateMarkdown();
-  });
+  ]);
 }
 
 module.exports = promptUser;

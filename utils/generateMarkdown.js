@@ -5,7 +5,8 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
 `;
-console.log(data.title)
 }
+
+
 
 module.exports = generateMarkdown;
