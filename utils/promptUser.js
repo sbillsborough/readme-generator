@@ -1,4 +1,5 @@
 const fs = require("fs");
+const path = require('path');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./generateMarkdown');
 // function with array of questions for the user
@@ -52,7 +53,7 @@ function promptUser() {
     },
   ])
   .then((res) => {
-    return fs.writeFileSync(path.join(process.cwd(), 'README.md'), generateMarkdown(response))
+    return fs.writeFileSync(path.join(process.cwd(), 'README.md'), generateMarkdown(res))
   });
 }
 
