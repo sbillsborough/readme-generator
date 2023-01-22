@@ -1,7 +1,13 @@
-// function with array of questions for user
+const inquirer = require('inquirer');
+// function with array of questions for the user
+const { default: inquirer } = require("inquirer");
 
 function promptUser() {
-  const questions = [
-
-  ];
+  inquirer.prompt([
+    {
+      type: 'number',
+      name: 'num1',
+      message: 'Enter your first number.'
+    }
+  ]);
 }
