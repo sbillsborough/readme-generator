@@ -1,6 +1,6 @@
 // function to generate markdown for README
 function badge(data) {
-  const licenseType = data.license[0];
+  const licenseType = data.license;
   let licenseString = ''
   if (licenseType === 'MIT') {
     licenseString = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
