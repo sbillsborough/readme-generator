@@ -26,6 +26,7 @@ Created to practise NodeJS and NPM. Installing Node packages, requiring packages
 - JavaScript
 - NodeJS
 - Node Package Manager
+- Inquirer Package
 
 ## Setup
 
