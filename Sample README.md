@@ -29,7 +29,7 @@ test contributers
 ## Tests
 n/a
 
-## Contact
+## Questions
 If you have ant questions then feel free to reach out to me via my [GitHub](https://github.com/sbillsborough).
 
 Alternatively contact me via my email: test@test.com
