@@ -49,7 +49,7 @@ ${data.contributing}
 ## Tests
 ${data.tests}
 
-## Contact
+## Questions
 If you have ant questions then feel free to reach out to me via my [GitHub](https://github.com/${data.github}).
 
 Alternatively contact me via my email: ${data.email}
