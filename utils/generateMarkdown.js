@@ -24,6 +24,9 @@ function generateMarkdown(data) {
 
 > ${data.description} 
 
+## License
+${badge(data)}
+
 ## Table of Contents:
 
 - [Description](#description) 
@@ -40,9 +43,6 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-## License
-${badge(data)}
-
 ## Contributing
 ${data.contributing}
 
@@ -50,7 +50,9 @@ ${data.contributing}
 ${data.tests}
 
 ## Contact
-${data.questions}
+If you have ant questions then feel free to reach out to me via my [GitHub](https://github.com/${data.github}).
+
+Alternatively contact me via my email: ${data.email}
 `
 }
 
