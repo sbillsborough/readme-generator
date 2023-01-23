@@ -30,6 +30,7 @@ Created to practise NodeJS and NPM. Installing Node packages, requiring packages
 ## Setup
 
 - Install NodeJS on your computer
+- Pull the repository to your computer
 - Run 'npm install inquirer@^8.0.0' in the terminal
 - Run 'node index.js' in the terminal
 
