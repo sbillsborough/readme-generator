@@ -15,7 +15,7 @@
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
-- [Contact](#contact)
+- [Questions](#questions)
 
 ## Installation
 test instructions
