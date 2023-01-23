@@ -17,11 +17,6 @@ function promptUser() {
     },
     {
       type: 'input',
-      name: 'contents-table',
-      message: 'Enter the project\'s contents:'
-    },
-    {
-      type: 'input',
       name: 'installation',
       message: 'Enter the project\'s installation instructions:'
     },
