@@ -8,7 +8,7 @@
 - [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [Live Application](#live-application)
+- [Live Application / Video Demonstration](#live-application)
 - [Features](#features)
 - [Status](#status)
 - [Contact](#contact)
@@ -33,7 +33,7 @@ Created to practise NodeJS and NPM. Installing Node packages, requiring packages
 - Run 'npm install inquirer@^8.0.0' in the terminal
 - Run 'node index.js' in the terminal
 
-## Live Application
+## Live Application / Video Demonstration
 
 [YouTube Video Demonstration Link](https://drive.google.com/file/d/1NXefJVb-7r4QZCWQj_pZQVxNexZ-wcdh/view)
 
