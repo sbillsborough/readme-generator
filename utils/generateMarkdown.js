@@ -35,7 +35,7 @@ ${badge(data)}
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
-- [Contact](#contact)
+- [Questions](#questions)
 
 ## Installation
 ${data.installation}
